@@ -1,0 +1,200 @@
+.header-container {
+  background-image: url(./Assets/vanda-slider1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.navbar li {
+  margin-left: 0.5rem;
+}
+.active{
+  color: green !important;
+}
+.second-nav{
+  font-weight: bold;
+}
+.navbar .fa-google-plus-g{
+  color: rgb(243, 72, 101)
+}
+.second-nav li a:hover{
+  color: green !important;
+}
+.header-section .image {
+  padding-top: 7rem;
+  padding-bottom: 5rem;
+  width: 14rem;
+}
+.header-section .info-item {
+  width: 40%;
+}
+.header-section .img-item {
+  width: 50%;
+}
+.header-section .img-item img {
+  width: 100%;
+}
+.welcom {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.campany-name {
+  color: #d42009;
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.info-name {
+  color: green;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.btn-read-more {
+  background-color: green;
+  border-radius: 20px;
+  color: white;
+  padding: 0.5rem 2rem;
+  margin-top: 1rem;
+}
+/* About company */
+.about-company .welcom-about {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.about-company .welcom-about::after {
+  content: "";
+  display: block;
+  width: 48%;
+  margin-block: 1rem;
+  padding-block: 1px;
+  background-color: gray;
+}
+.about-company .about-info {
+  width: 40%;
+}
+
+/* Our services */
+.our-services {
+  background-image: url(./Assets/venda-serves0.png);
+  background-repeat: no-repeat;
+  background-size: 110% 100%;
+  margin-top: -0.9rem;
+  color: rgb(80, 80, 80);
+}
+.serv-item {
+  width: 25%;
+  padding-block: 8rem;
+}
+/* our products */
+.ourProducts {
+  margin-top: -55px;
+}
+.ourProducts .title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.ourProducts .title::before {
+  content: "";
+  display: block;
+  height: 70px;
+  width: 4px;
+  background-color: gray;
+  margin: auto;
+  padding-inline: 1px;
+  top: 0;
+}
+/* our products  */
+.product-info {
+  width: 60%;
+  margin: auto;
+}
+.ourProducts .product {
+  width: 33%;
+}
+.leaf {
+  margin-right: 10rem;
+  padding-block: 1.5rem;
+}
+/* hair-care-products */
+.hair-care-products {
+  background-image: url(./Assets/group-background.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100;
+}
+.hair-products {
+  padding-top: 5rem;
+}
+.vanda-present {
+  color: white;
+  font-size: 1.7rem;
+}
+.vanda-present span {
+  font-size: 3.3rem;
+  font-weight: bold;
+}
+/* our-news */
+
+.our-news {
+    padding-top: 5rem;
+    margin-bottom: 16rem;
+}
+.news-item {
+    position: relative;
+  width: 32%;
+}
+.news-image img{
+width:100%
+}
+.our-news .center-title {
+  font-size: 3rem;
+  color: #d42009;
+}
+.news-info-item {
+    position: absolute;
+    top: 86%;
+    background-color: #eee;
+    padding-inline: 1.2rem;
+    margin-right: 23px;
+    width: 86%;
+}
+.news-info-item h5.title {
+  padding-top: 1rem;
+  color: #222;
+  margin: 0;
+}
+.news-info-item h5.title::after {
+  content: "";
+  margin-block: 1.3rem;
+  display: block;
+  width: 27%;
+  background-color: #d42009;
+  padding-block: 1px;
+}
+.news-info {
+  padding-bottom: 1.5rem;
+}
+/* footer */
+footer{
+    color: #fff;
+    background-image: url(./Assets/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.social-footer a{
+    color: #fff;
+    font-size: 1.2rem;
+}
+.social-footer{
+    background-color: rgba(3, 3, 3, 0.644);
+}
+.danger{
+    color:#d42009;
+}
+.footer-item-title::after{
+        content: "";
+        margin-block: 1.3rem;
+        display: block;
+        width: 55%;
+        background-color: #d42009;
+        padding-block: 1px;
+}
