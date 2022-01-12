@@ -1,3 +1,4 @@
+
 .header-container {
   background-image: url(./Assets/vanda-slider1.jpg);
   background-repeat: no-repeat;
@@ -55,6 +56,15 @@
   padding: 0.5rem 2rem;
   margin-top: 1rem;
 }
+.product-read{
+  background-color:transparent;
+  padding: .3rem 1rem;
+  border: none;
+  margin-top: 8rem;
+}
+ .product-name3 .product-read{
+ color:green !important;
+ }
 /* About company */
 .about-company .welcom-about {
   font-size: 1.5rem;
@@ -87,6 +97,50 @@
 /* our products */
 .ourProducts {
   margin-top: -55px;
+  position: relative;
+}
+.ourProducts .products .product-container:nth-child(1) .product-name{
+  position: absolute;
+  bottom: 8%;
+  width: 39%;
+}
+.ourProducts .products .product-container:nth-child(3) .product-name3{
+  position: absolute;
+  bottom: 16%;
+  width: 30%;
+}
+.ourProducts .product-container :nth-child(1){
+  top: 0;
+  color: #d42009;
+}
+.ourProducts .product-name {
+  padding:1rem;
+}
+.ourProducts .product-name p,
+.ourProducts .product-name3 p{
+  font-size:1.7rem;
+  font-weight:bold;
+  margin-right: 1rem;
+}
+.ourProducts .product-container:nth-child(1)::after,
+.ourProducts .product-container:nth-child(3)::after{
+  content: '';
+  top:48%;
+  height:110px;
+  position: absolute;
+  display: block;
+  padding:1px;
+  margin-inline:2rem;
+  background-color:#d42009;
+}
+.ourProducts .product-container:nth-child(3)::after{
+background-color: green !important;
+top:50%;
+height: 90px;
+}
+
+.ourProducts .product-container{
+  position: relative;
 }
 .ourProducts .title {
   font-size: 3rem;
@@ -102,7 +156,9 @@
   padding-inline: 1px;
   top: 0;
 }
-/* our products  */
+.product-name3 p{
+  color:green !important;
+}
 .product-info {
   width: 60%;
   margin: auto;
@@ -136,6 +192,11 @@
 .our-news {
     padding-top: 5rem;
     margin-bottom: 16rem;
+    
+}
+.news{
+  
+  margin-top: -7%;
 }
 .news-item {
     position: relative;
@@ -190,11 +251,62 @@ footer{
 .danger{
     color:#d42009;
 }
+.footer-item{
+width:32%
+}
+
+.footer-item p {
+  font-size:1.2rem;
+  border-bottom: 1px solid rgb(172, 168, 168);
+  width:70%;
+  padding-block: 1.4rem;
+  margin: 0
+
+}
+.footer-item p.shampo {
+border-bottom: none;
+}
+
+.contact-icon-container{
+  margin-bottom: 1rem;
+}
+.contact-icon-info a ,
+.footer-item p a{
+  color: #fff;
+  text-decoration: none;
+}
+.footer-contact-icon{
+  padding: 0.4rem;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  width: 40px;
+  text-align: center;
+}
+.footer-item:nth-child(2){
+  border-inline: 1px solid rgb(172, 168, 168);
+  padding-right: 2rem;
+}
+.grid-container img{
+  width: 100%
+}
+.grid-container{
+  align-items: center;
+
+}
+.grid-container .grid-item{
+  text-align: center;
+}
+.contact-icon-info {
+  margin-right: 1rem;
+}
+.footer-item:nth-child(3){
+  margin-right: 1.5rem;
+}
 .footer-item-title::after{
         content: "";
         margin-block: 1.3rem;
         display: block;
-        width: 55%;
+        width: 16%;
         background-color: #d42009;
         padding-block: 1px;
 }
