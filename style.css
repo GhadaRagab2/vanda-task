@@ -1,4 +1,7 @@
-
+*{
+  padding:0;
+}
+/* main header */
 .header-container {
   background-image: url(./Assets/vanda-slider1.jpg);
   background-repeat: no-repeat;
@@ -56,15 +59,7 @@
   padding: 0.5rem 2rem;
   margin-top: 1rem;
 }
-.product-read{
-  background-color:transparent;
-  padding: .3rem 1rem;
-  border: none;
-  margin-top: 8rem;
-}
- .product-name3 .product-read{
- color:green !important;
- }
+
 /* About company */
 .about-company .welcom-about {
   font-size: 1.5rem;
@@ -94,38 +89,61 @@
   width: 25%;
   padding-block: 8rem;
 }
-/* our products */
+/***************************** our products ********************************8*/
 .ourProducts {
   margin-top: -55px;
   position: relative;
+}
+.ourProducts .product-container:nth-child(1){
+  top: 0;
+  color: #d42009;
 }
 .ourProducts .products .product-container:nth-child(1) .product-name{
   position: absolute;
   bottom: 8%;
   width: 39%;
 }
+
+.ourProducts .products .product-container:nth-child(2) .product-name2{
+  position: absolute;
+  bottom: 34%;top: 0;
+  z-index: 3;
+  width: 34%;
+}
 .ourProducts .products .product-container:nth-child(3) .product-name3{
   position: absolute;
   bottom: 16%;
   width: 30%;
 }
-.ourProducts .product-container :nth-child(1){
-  top: 0;
-  color: #d42009;
+.bg-border{
+  position: absolute;
+  z-index: 1;
+  width:100%;
+  margin-right: 12%;
+  top: 6%;
+  height: inherit;
 }
 .ourProducts .product-name {
   padding:1rem;
 }
 .ourProducts .product-name p,
+.ourProducts .product-name2 p,
 .ourProducts .product-name3 p{
   font-size:1.7rem;
   font-weight:bold;
   margin-right: 1rem;
 }
+.ourProducts .product-name2 p{
+  margin-top: 5rem;
+}
+.ourProducts .product-name2 .inner-title{
+  margin-top: 4rem;
+  margin-right: 3rem;
+}
 .ourProducts .product-container:nth-child(1)::after,
 .ourProducts .product-container:nth-child(3)::after{
   content: '';
-  top:48%;
+  top:40%;
   height:110px;
   position: absolute;
   display: block;
@@ -135,8 +153,7 @@
 }
 .ourProducts .product-container:nth-child(3)::after{
 background-color: green !important;
-top:50%;
-height: 90px;
+
 }
 
 .ourProducts .product-container{
@@ -157,7 +174,7 @@ height: 90px;
   top: 0;
 }
 .product-name3 p{
-  color:green !important;
+  color:green ;
 }
 .product-info {
   width: 60%;
@@ -166,11 +183,29 @@ height: 90px;
 .ourProducts .product {
   width: 33%;
 }
+.product-read{
+  background-color:transparent;
+  padding: .3rem 1rem;
+  border: none;
+  margin-top: 8rem;
+}
+.ourProducts .product-name .product-read{
+ color: black ;
+ padding-right: 0;
+}
+.ourProducts .product-name2 .product-read{
+  margin-top:0rem;
+  color: black;
+  margin-right: 1rem;
+}
+ .ourProducts  .product-name3 .product-read{
+ color:green ;
+ }
 .leaf {
   margin-right: 10rem;
   padding-block: 1.5rem;
 }
-/* hair-care-products */
+/********************************* hair-care-products *************************/
 .hair-care-products {
   background-image: url(./Assets/group-background.png);
   background-repeat: no-repeat;
@@ -187,7 +222,8 @@ height: 90px;
   font-size: 3.3rem;
   font-weight: bold;
 }
-/* our-news */
+
+/******************************  our-news ***********************************/
 
 .our-news {
     padding-top: 5rem;
